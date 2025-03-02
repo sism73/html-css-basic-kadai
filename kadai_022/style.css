@@ -20,7 +20,7 @@ main {
   margin: 10px;
 }
 
-#parents {
+#parent {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -79,7 +79,7 @@ a:hover {
   p {
     font-size: 25px;
   }
-  #parents {
-    flex-direction: row;
+  #parent {
+    flex-direction: column;
   }
 }
