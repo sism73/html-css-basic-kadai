@@ -45,7 +45,7 @@ h2::before {
   color: rgb(239, 111, 139);
 }
 
-.contents :nth-of-type(2)::first-letter {
+.contents p:nth-of-type(2)::first-letter {
   font-weight: bold;
   color: rgb(97, 206, 249);
 }
@@ -82,4 +82,3 @@ a:hover {
   #parent {
     flex-direction: column;
   }
-}
